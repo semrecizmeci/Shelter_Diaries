@@ -1,0 +1,202 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  text-decoration: none !important;
+  font-style: italic;
+  font-family: "Courier New", Courier, monospace;
+}
+
+body {
+  background-color: yellowgreen;
+}
+.navBar {
+  position: relative; /* 1 */
+  /* border: solid 2px black; */
+  display: inline-block;
+  width: 100%;
+  height: 100px;
+  /* position: relative; */
+  background-color: orange;
+}
+.Baslik {
+  display: inline-block;
+  position: absolute;
+  left: 25px;
+  top: 30px;
+  cursor: pointer;
+  font-style: italic;
+  font-weight: bolder;
+  font-size: larger;
+}
+.icon {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  position: absolute;
+  left: 240px;
+  top: 35px;
+}
+.ul {
+  position: relative;
+  /* display: flex; */
+  text-align: center;
+  /* justify-content: center; */
+  top: 0px;
+}
+.navBarAdres {
+  position: relative;
+  /* font-size: large; */
+  font-size: larger;
+  font-style: italic;
+  padding: 10px;
+  text-align: center;
+  justify-content: center;
+  display: inline-block;
+  top: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+.navBarAdres a {
+  color: black;
+  font-size: large;
+  font-weight: 400;
+  /* font-style: italic; */
+}
+
+/* ------------------------- */
+.dropdown {
+  left: 1.5%;
+  top: 20px;
+  /* margin: 0px; */
+  display: inline-block;
+}
+/* .icerik {
+  border: solid 2px black;
+  width: 50%;
+  margin: 0;
+  display: inline-block;
+  box-sizing: border-box; 
+  margin-top: 10px;
+} */
+
+.barinaklar {
+  /* border: solid 2px black; */
+  width: 15%;
+  margin-left: 1%;
+  margin-top: 1%;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 8px;
+  padding-top: 5px;
+  background-color: rgba(192, 192, 192, 1);
+  border-radius: 10px;
+}
+.baslik {
+  font-weight: bold;
+}
+.data {
+  font-weight: bold;
+}
+.data:hover {
+  cursor: pointer;
+}
+.infos {
+  /* border: solid 2px black; */
+  height: 70%;
+  width: 75%;
+  position: absolute;
+  left: 20%;
+  top: 23%;
+  overflow: auto;
+  background-color: rgba(192, 192, 192, 0.8);
+  border-radius: 10px;
+}
+.barinakbilgileri {
+  /* border-right: solid 2px black; */
+  width: 30%;
+  height: 100%;
+  position: relative;
+  /* flex-wrap: wrap;  */
+  display: inline-block;
+  word-wrap: break-word;
+  background-color: rgba(192, 192, 192, 1);
+  border-radius: 10px;
+  padding-left: 8px;
+}
+.hayvanDostlarimiz {
+  height: 94%;
+  width: 70%;
+  position: absolute;
+  left: 30%;
+  display: inline-block;
+  top: 2%;
+  /* border: solid 2px black; */
+  /* overflow: auto; */
+}
+.hayvandostlarimizBaslik {
+  margin-left: 14px;
+  margin-top: 13px;
+}
+.animalCat {
+  height: 100%;
+  width: 100%;
+}
+.animalCat:hover {
+  cursor: pointer;
+}
+.dostlarInfo {
+  height: 23%;
+  width: 18%;
+  background-color: orangered;
+  /* border: solid 2px black; */
+  display: inline-block;
+  position: relative;
+  left: 2%;
+  top: 5%;
+  overflow: auto;
+  margin-left: 3px;
+}
+.openWindowInfo {
+  position: absolute;
+  left: 30%;
+  top: 10%;
+  width: 40%;
+  height: 80%;
+  /* border: solid 2px black; */
+  display: inline-block;
+  background-color: orange;
+  box-shadow: 50px 50px 80px #888888;
+}
+.X {
+  position: relative;
+  left: 85%;
+  top: -10px;
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  /* border: solid black 2px; */
+  cursor: pointer;
+}
+.openWindowPicture {
+  /* border: solid 2px black; */
+  /* height: 40%; */
+  width: 50%;
+  display: inline-block;
+  position: absolute;
+  left: 25%;
+  top: 5%;
+}
+.openWindowPictureCat {
+  width: 100%;
+  height: 100%;
+}
+.openWindowPictureInfo {
+  margin-top: 12px !important;
+  font-weight: bold;
+}
+.active {
+  display: none;
+}

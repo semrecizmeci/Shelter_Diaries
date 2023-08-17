@@ -1,0 +1,181 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-style: italic;
+  font-family: "Courier New", Courier, monospace;
+  color: black;
+
+}
+/* body {
+  background-color: greenyellow;
+} */
+.genelDiv {
+  /* border: solid 2px black; */
+  /* height: 100px; */
+  width: 100%;
+  display: inline-block;
+  position: relative;
+}
+.navBar {
+  /* border: solid 2px black; */
+  display: inline-block;
+  width: 100%;
+  height: 100px;
+  /* position: relative; */
+  background-color: orange;
+
+}
+.Baslik {
+  display: inline-block;
+  position: absolute;
+  left: 20px;
+  top: 35px;
+  cursor: pointer;
+  font-weight: bolder;
+  font-size: larger;
+  font-style: italic;
+}
+.icon {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  position: absolute;
+  left: 240px;
+  top: 36px;
+}
+.ul {
+  position: relative;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+ 
+}
+.navBarAdres {
+  position: relative;
+  font-size: large;
+  font-style: italic;
+  padding: 10px;
+  text-align: center;
+  justify-content: center;
+  display: inline-block;
+  top: 25px;
+  margin-left: 5px;
+  margin-right: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+.navBarAdres a{
+  text-decoration: none;
+
+}
+
+/* Resim ve açıklamanın olduğu yere geldik */
+
+.mainPart {
+  width: 100%;
+  height: 550px;
+  /* border: solid 2px black; */
+  position: relative;
+  top: 50px;
+  display: flex;
+  justify-content: center; /* Yatayda ortala */
+  align-items: center; /* Dikeyde ortala */
+  /* background-color: orange; */
+  background-color: rgba(255, 165, 0, 0.8);
+}
+.dog {
+  width: 800px;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 1);
+}
+.acıklama {
+  /* border: solid 2px black; */
+  width: 350px;
+  height: 220px;
+  position: absolute;
+  left: 30px;
+  border-radius: 20px 0 0 20px;
+  text-align: left;
+  justify-content: left;
+  display: flex;
+  padding-left: 20px;
+  padding-top: 18px;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 1);
+  background-color: orchid;
+}
+
+.KullanıcıYorumu {
+  /* border: solid 2px black; */
+  /* width: 300px;
+  height: 250px; */
+  width: 300px;
+  height: 230px;
+  position: absolute;
+  left: 1150px;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 1);
+  background-color: orangered;
+  border-radius: 0 20px 20px 0;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+.gonder {
+  position: relative;
+  left: 205px;
+}
+/* navbar görünürlüğünü açıp kapamak için sahipsiz bir sınıf taanımladık */
+.active {
+  display: inline-block;
+}
+
+@media (max-width: 1111px) {
+  .navName {
+    margin-right: 38px;
+  }
+  .navName:nth-child(2) {
+    margin-right: 45px;
+  }
+}
+
+/* sayfa daralınca çıkacak ikonu ve sonrasını tasarlıyoruz */
+@media (max-width: 965px) {
+  .navName {
+    display: inline-block;
+    padding-top: 5px;
+    position: relative;
+    top: 40px;
+    left: 10px;
+  }
+  .navbar {
+    display: inline-block;
+  }
+  .navbardiv {
+    border: solid black 2px;
+    height: 100vh;
+    width: 270px;
+    position: absolute;
+    background-color: turquoise;
+    display: none;
+  }
+  .icon {
+    display: inline-block;
+  }
+  .siteNameMobile {
+    display: inline-block;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .siteName {
+    display: none;
+  }
+}
+
+@media (max-width: 1479px) {
+  /* sayfa daraldıktan sonra
+  arkadaki görsel ekranı belli ölçüde
+  kaplayacak ve görsel soluklaştırılacak.
+  görselin bir yerinde sitenin amacı,
+  görselin altında kullanıcıların iletişim kuracakları
+  yer olacak. */
+}
